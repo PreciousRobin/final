@@ -23,7 +23,7 @@ def main():
     print("connected")
     
 
-    with open('data.csv', 'r') as f:
+    with open('transaction.csv', 'r') as f:
         next(f) 
         lines = f.readlines()
         if operation=='insert':
