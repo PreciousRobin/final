@@ -125,12 +125,10 @@ def custom():
 
     best_node = min(responses, key=responses.get)
     best_node=str(best_node)
-    if best_node=='184.72.114.22':
+    if best_node=='52.206.95.187':
         node=0
-    elif best_node=="52.206.95.187 ":
+    elif best_node=="44.201.140.131":
         node=1
-    elif best_node=='44.201.140.131':
-        node=2
 
     return(node)
 
